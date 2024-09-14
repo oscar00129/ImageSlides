@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+input {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+}
+
+.zero-opacity {
+    opacity: 0;
+}

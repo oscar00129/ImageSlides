@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcement App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <input type="file" name="iImages" id="iImages" accept="image/*" multiple @change="inputChanged" :class="images.length > 0 ? 'zero-opacity' : ''">
+        <img :src="images[currentImage] && images[currentImage].img ? images[currentImage].img : './toro.jpg'" alt="">
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
