@@ -37,7 +37,7 @@ const app = Vue.createApp({
                 this.currentImage++;
                 if(this.currentImage >= this.images.length)
                     this.currentImage = 0;
-            }, 10000);
+            }, 20000);
         }
     }
 })
